@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Micah</title>
+    <link rel="stylesheet" href="./main.css">
+    <script defer src="./main.js"></script>
+</head>
+<body>
+    <div id="Portfolio">
+        <iframe class="background" src="" allowfullscreen frameborder="0"></iframe>
+        <div class="logo_section">
+            <a class="logo" href=""><img src="./logo.png"></a>
+        </div>
+        <div class="title_section">
+            <div id="title"></div>
+        </div>
+        <div class="setting_section"></div>
+        <div class="leftNav_section">
+            <button id="leftButton" onclick="scrollToChild(-1)">
+                <div id="navLeftButton"></div>
+            </button>
+        </div>
+        <div id="container_section">
+            <iframe class="child" title="🧋 About Me" src="./projects/about_me.html" allowfullscreen frameborder="0">A</iframe>
+            <div class="child" title="B">B</div>
+            <div class="child" title="C">C</div>
+            <div class="child" title="B">B</div>
+            <div class="child" title="C">C</div>
+            <div class="child" title="B">B</div>
+            <div class="child" title="C">C</div>
+        </div>
+        <div class="rightNav_section">
+            <button id="rightButton" onclick="scrollToChild(1)">
+            <div id="navRightButton"></div>
+            </button>
+        </div>
+        <div id="pagination_section"></div>
+        <div class="viewFullResume_section"><a href="">View Full Resume</a></div>
+        <div class="publication_section">
+            <a class="publication" href="">
+                <img src="./medium.png" alt="">
+                <p>Publication</p>
+            </a>
+        </div>        
+    </div>
+</body>
+</html>
